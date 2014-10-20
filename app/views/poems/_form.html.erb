@@ -13,19 +13,19 @@ git status<%= form_for(@poem) do |f| %>
 
   <div class="field">
     <%= f.label :name %><br>
-    <%= f.text_field :name %>
+    <%= f.text_field :name, class: "form-control" %> 
   </div>
   <div class="field">
     <%= f.label :synopsis %><br>
-    <%= f.text_field :synopsis %>
+    <%= f.text_field :synopsis, class: "form-control" %>
   </div>
   <div class="field">
     <%= f.label :genre %><br>
-    <%= f.text_field :genre %>
+    <%= f.text_field :genre, class: "form-control" %>
   </div>
   <div class="field">
     <%= f.label :theme %><br>
-    <%= f.text_field :theme %>
+    <%= f.text_field :theme, class: "form-control" %>
   </div>
   <div class="actions">
     <%= f.submit %>
